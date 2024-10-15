@@ -1,0 +1,54 @@
+body{
+	margin: 0;
+	border: 0;
+	background-color: black;
+	color: white;
+	font-family: "Plus Jakarta Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	padding: clamp(3rem, 6vw, 6rem) clamp(1rem, 2vw, 2rem);
+	max-width: 800px;
+}
+
+p {
+	margin-block-start: 2rem;
+	font-size: clamp(0.825rem, 0.825rem +((1vw - 0.2rem)* 0.433), 1.0625rem);
+	/*	make the font-small the default of p */
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.font-medium {
+	font-size: clamp(1.25rem, 3vw, 1.5rem);
+}
+
+.font-large {
+	font-size: clamp(2.5rem, 3vw, 3rem);
+}
+
+.font-small {
+	font-size: clamp(0.825rem, 0.825rem +((1vw - 0.2rem)* 0.433), 1.0625rem);
+}
+
+img {
+	width: 100%;
+}
+
+#initial-gallery {
+	display: flex;
+	max-width: 800px;
+	flex-wrap: wrap;
+	gap: 5px;
+}
+
+footer {
+	display: flex;
+	margin: clamp(3rem, 6vw, 6rem) 0;
+}
