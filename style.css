@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Glory:wght@800&display=swap");
+
 body{
 	margin: 0 auto;
 	border: 0;
@@ -35,6 +37,13 @@ a:hover {
 
 .font-small {
 	font-size: clamp(0.825rem, 0.825rem +((1vw - 0.2rem)* 0.433), 1.0625rem);
+}
+
+h2.font-large {
+	font-family: "Glory", sans-serif;
+	font-size: clamp(3rem, 4vw, 4rem);
+	margin-block-start: 33.2px;
+	margin-block-end: 33.2px;
 }
 
 img {
