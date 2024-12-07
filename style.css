@@ -27,6 +27,11 @@ a:hover {
 	text-decoration: underline;
 }
 
+.biglinks {
+	text-decoration: underline;
+	font-size: clamp(0.9rem, 3vw, 1.2rem);
+}
+
 .font-medium {
 	font-size: clamp(1.25rem, 3vw, 1.5rem);
 }
