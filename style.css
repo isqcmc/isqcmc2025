@@ -82,3 +82,10 @@ table td:nth-child(1) {
 td {
 	vertical-align: top;
 }
+
+tt {
+	background-color: whitesmoke;
+    color: black;
+    padding: 2px;
+    border-radius: 4px;
+}
