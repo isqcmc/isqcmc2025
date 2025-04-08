@@ -78,7 +78,7 @@ We call for submissions of original productions in two separate routes:
 
 <p class='font-medium'>Paper Submission</p>
 <!-- #E40066 color for when submissions are closed. -->
-<p>The paper submission for ISQCMC '25 is currently <a href="mailto:quantummusicsubmission@gmail.com"><span style='color: #03CEA4;'>open</span></a>. Please refer to the detailed instructions below to ensure a smooth peer-review and avoid unnecessary rejections of your submission.</p>
+<p>The paper submission for ISQCMC '25 is currently <u><a id="paper-submission"><span style='color: #03CEA4;'>open</span></a></u>. Please refer to the detailed instructions below to ensure a smooth peer-review and avoid unnecessary rejections of your submission.</p>
 
 
 The deadline for submission is <strong>May 09, 2025</strong>. <br>
@@ -86,7 +86,7 @@ The deadline for submission is <strong>May 09, 2025</strong>. <br>
 <p>Paper Submission Instructions</p>
 Please make sure the paper is formatted according to the <a href="https://www.overleaf.com/latex/templates/isqcmc-2025-template/qyfngrjtyvjv"><u>ISQCMC 2025 Template</u></a>, is <em> anonymized</em> (see the Anonymization section below),and does not exceed 5 pages.<br><br>
 
-All submissions are to be sent to <a href="mailto:quantummusicsubmission@gmail.com">quantummusicsubmission@gmail.com</a>, and <strong> should contain the following information and files:</strong>
+All submissions are to be sent to <a id="paper-2submission">quantummusicsubmission AT gmail DOT com</a>, and <strong> should contain the following information and files:</strong>
 
 <ul>
   <li>Full names of all authors, and their respective affiliations (if applicable)</li>
@@ -109,16 +109,16 @@ This is the command that imports the anonymization functionality, and allows the
 
 <strong> Switch the anonymization on/off:</strong> While writing the paper, you can switch the anonymization off by removing the <tt>[blind]</tt> argument from the command: <tt>\usepackage{anonymize}</tt>.
 
-<br><br> In case there are any questions, please do not hesitate to reach out to the organizers through our email: <a href="mailto:quantummusicsubmission@gmail.com">quantummusicsubmission@gmail.com</a>
+<br><br> In case there are any questions, please do not hesitate to reach out to the organizers through our <a id="general-enquiry"><u>email</u></a> (quantummusicsubmission AT gmail DOT com)
 
 <p class="font-medium">Music Submission</p>
-<p>The music submission for ISQCMC '25 is currently <a href="mailto:quantummusicsubmission@gmail.com"><span style='color: #03CEA4;'>open</span></a>. Please refer to the detailed instructions below to ensure a smooth review and avoid unnecessary rejections of your submission.</p>
+<p>The music submission for ISQCMC '25 is currently <u><a id="music-submission"><span style='color: #03CEA4;'>open</span></a></u>. Please refer to the detailed instructions below to ensure a smooth review and avoid unnecessary rejections of your submission.</p>
 
 The deadline for submission is <strong>To Be Announced</strong>. <br>
 <p>Music Submission Instructions</p>
 Please note that Music Submissions are <strong>not anonymized</strong>.<br><br>
 
-All submissions are to be sent to <a href="mailto:quantummusicsubmission@gmail.com">quantummusicsubmission@gmail.com</a>, and <strong> should contain the following information and files:</strong>
+All submissions are to be sent to the <a id="music-2submission"><u>quantummusicsubmission AT gmail DOT com</u></a>, and <strong> should contain the following information and files:</strong>
 
 <ul>
   <li>Full names of all authors, and their respective affiliations (if applicable)</li>
@@ -145,5 +145,32 @@ For fixed-media compositions, a stereo audio file (WAV) or a video file (MP4) wi
 		<p>Web Design by <a href="https://omarcostahamido.com">OCH</a></p>
 	</div>
 </footer>
+<script type="text/javascript">
+  setTimeout(function() {
+      var mailto_paper = "mailto:quantummusicsubmission"+"@"+"gmail.com?subject=%5BISQCMC%20'25%5D%20Paper%20Submission";
+      document.getElementById("paper-submission").href = mailto_paper;
+    }, 2000);
+  setTimeout(function() {
+      var mailto_music = "mailto:quantummusicsubmission"+"@"+"gmail.com?subject=%5BISQCMC%20'25%5D%20Music%20Submission";
+      document.getElementById("music-submission").href = mailto_music;
+    }, 2000);
+  setTimeout(function() {
+      var mailto_enq = "mailto:quantummusicsubmission"+"@"+"gmail.com?subject=%5BISQCMC%20'25%5D%20General%20Enquiry";
+      document.getElementById("general-enquiry").href = mailto_enq;
+    }, 2000);
+</script>
+<script type="text/javascript">
+  setTimeout(function() {
+      var mailto_2paper = "mailto:quantummusicsubmission"+"@"+"gmail.com?subject=%5BISQCMC%20'25%5D%20Paper%20Submission";
+      document.getElementById("paper-2submission").href = mailto_2paper;
+    }, 2000);
+</script>
+<script type="text/javascript">
+  setTimeout(function() {
+      var mailto_2music = "mailto:quantummusicsubmission"+"@"+"gmail.com?subject=%5BISQCMC%20'25%5D%20Music%20Submission";
+      document.getElementById("music-2submission").href = mailto_2music;
+    }, 2000);
+</script>
+      
 </body>
 </html>
